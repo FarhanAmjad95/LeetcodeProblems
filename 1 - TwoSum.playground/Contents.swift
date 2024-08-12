@@ -1,15 +1,4 @@
-import Foundation
-
-public func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-    for i in 0..<nums.count {
-        for j in 1+i..<nums.count {
-            if nums[i] + nums[j] == target {
-                return [i, j]
-            }
-        }
-    }
-    return []
-}
+import Cocoa
 
 /*
  
@@ -36,3 +25,17 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 
 */
+
+public func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    for i in 0..<nums.count {
+        for j in 1+i..<nums.count {
+            if nums[i] + nums[j] == target {
+                return [i, j]
+            }
+        }
+    }
+    return []
+}
+
+
+print(twoSum([2,7,11,15], 9))
