@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		BDC196B22C6ACA580096E048 /* 3 - LongestSubstring.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 - LongestSubstring.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDE0942B2C6A7CDF00B9C928 /* 1 - TwoSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1 - TwoSum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDE0942C2C6A844600B9C928 /* 2 - AddTwoNumbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2 - AddTwoNumbers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -15,6 +16,7 @@
 		BDE094242C6A7CA800B9C928 = {
 			isa = PBXGroup;
 			children = (
+				BDC196B22C6ACA580096E048 /* 3 - LongestSubstring.playground */,
 				BDE0942C2C6A844600B9C928 /* 2 - AddTwoNumbers.playground */,
 				BDE0942B2C6A7CDF00B9C928 /* 1 - TwoSum.playground */,
 			);
