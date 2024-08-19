@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		BD6D9B732C739273001F315C /* 6 - Zigzag Conversion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6 - Zigzag Conversion.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD7F083B2C6EB39C0071092C /* 5 - LongestPalindrom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5 - LongestPalindrom.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDC196B22C6ACA580096E048 /* 3 - LongestSubstring.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3 - LongestSubstring.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDC196B32C6BFFA40096E048 /* 4 - MedianofTwoSortedArrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4 - MedianofTwoSortedArrays.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -18,6 +19,7 @@
 		BDE094242C6A7CA800B9C928 = {
 			isa = PBXGroup;
 			children = (
+				BD6D9B732C739273001F315C /* 6 - Zigzag Conversion.playground */,
 				BD7F083B2C6EB39C0071092C /* 5 - LongestPalindrom.playground */,
 				BDC196B32C6BFFA40096E048 /* 4 - MedianofTwoSortedArrays.playground */,
 				BDC196B22C6ACA580096E048 /* 3 - LongestSubstring.playground */,
