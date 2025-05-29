@@ -37,5 +37,35 @@ public func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     return []
 }
 
+public func twoSumWithDicionary(_ nums: [Int], _ target: Int) -> [Int] {
+  var dict: [Int: Int] = [:]
+  for i in 0..<nums.count {
+    var value = nums[i]
+    if let index = dict[target - value] {
+      return [index, i]
+    }
+    dict[value] = i
+  }
+  return []
+}
 
-print(twoSum([2,7,11,15], 9))
+
+public func twoSumSortedArray(_ nums: [Int], _ target: Int) -> [Int] {
+  var left = 0
+  var right = nums.count - 1
+  
+  while left < right {
+    let sum = nums[left] + nums[right]
+    if sum == target {
+      return [left, right]
+    } else if sum < target {
+      left += 1
+    } else {
+      right -= 1
+    }
+  }
+  return []
+}
+
+
+print(twoSum([2,11,15, 7], 9))
